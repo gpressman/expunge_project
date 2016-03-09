@@ -72,6 +72,7 @@ Expungio::Application.routes.draw do
   get '/b59', to: 'questions#b59'
   get '/b60', to: 'questions#b60'
   get '/b61', to: 'questions#b61'
+  get '/b62', to: 'questions#b62'
   
   get '/dontknow', to: 'questions#dontknow'
   get '/cantuse', to: 'questions#cantuse'
